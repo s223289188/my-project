@@ -1,6 +1,6 @@
 <template>
   <div class="responsive-buttons">
-    <!-- An instance of looping through an array using v-for -->
+    
     <div v-for="(item, index) in items" :key="index" class="btn" @click="handleItemClick(index)">
       {{ item }}
     </div>
