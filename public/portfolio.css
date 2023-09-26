@@ -1,0 +1,96 @@
+
+html, body, h1, h2, h3, p, ul, li, a, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* background image */
+body {
+    background-image: url('https://wallpaperaccess.com/full/5652030.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+
+/* Styling the header section */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stylying the main content */
+main {
+    padding: 20px;
+}
+
+/* designing section headers */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* designing paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* designing the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* designing text boxes */
+.text-box {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none; 
+}
+
+
+.show-text {
+    display: block;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
